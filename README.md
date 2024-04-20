@@ -75,6 +75,54 @@ Observe Wireshark ICMP traffic between VM1 & 2 also traffic between VM1 & Google
 <br />
 
 <p>
+<img width="312" alt="ping -t vm2" src="https://github.com/qjackson14/nsgs/assets/156969011/18a07baa-d1c8-41cc-a085-2cb742d49326">
+</p>
+<p>
+Send continuous ping to VM2 (ping 10.0.0.5 -t)
+</p>
+<br />
+
+<p>
+<img width="177" alt="network settings vm2" src="https://github.com/qjackson14/nsgs/assets/156969011/5d3e1718-8741-4bb5-8f10-4116e17297b6">
+</p>
+<p>
+Go to VM2's Network Settings
+</p>
+<br />
+
+<p>
+<img width="427" alt="deny icmp" src="https://github.com/qjackson14/nsgs/assets/156969011/bc8eee97-a03e-42df-8203-b6d3fb9c5982">
+</p>
+<p>
+Scroll to Network Security Group -> Click Create port rule -> Select Inbound port Rule/ICMP/Deny/Set Priority to be first rule traffic goes through.
+</p>
+<br />
+
+<p>
+<img width="311" alt="imcp blocked traffic" src="https://github.com/qjackson14/nsgs/assets/156969011/fecc3f06-b3d4-4d86-931e-d3d67dab0ab9">
+</p>
+<p>
+View blocked traffic via command prompt from firewall setup in NSG
+</p>
+<br />
+
+<p>
+<img width="312" alt="ssh login" src="https://github.com/qjackson14/nsgs/assets/156969011/14298a50-362b-4939-9772-4822425ea683">
+</p>
+<p>
+Login to VM2 command prompt using SSH
+</p>
+<br />
+
+<p>
+<img width="561" alt="wireshark ssh traffic" src="https://github.com/qjackson14/nsgs/assets/156969011/5080e6e2-1d13-487e-acdd-6c78c6e3c91d">
+</p>
+<p>
+Observe SSH traffic in Wireshark
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
