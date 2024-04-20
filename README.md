@@ -123,42 +123,42 @@ Observe SSH traffic in Wireshark
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="311" alt="ipconfig renew" src="https://github.com/qjackson14/nsgs/assets/156969011/ec897896-2707-4a83-8a12-fe6f77b334cf">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ipconfig /renew to trigger DHCP traffic
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="560" alt="dhcp traffic" src="https://github.com/qjackson14/nsgs/assets/156969011/dad36fdd-b6df-434d-8da9-792ec5096b6d">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Observe DHCP traffic in Wireshark.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="313" alt="nslookup" src="https://github.com/qjackson14/nsgs/assets/156969011/d76625e6-00d6-4f67-ab8d-304faedb652b">
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+"nslookup" to trigger DNS traffic
+</p>
+<br />
+
+<p>
+<img width="560" alt="wireshark dns traffic" src="https://github.com/qjackson14/nsgs/assets/156969011/fe505831-7e72-4a83-8367-de67c918e86b">
+</p>
+<p>
+Observe DNS traffic in Wireshark
+</p>
+<br />
+
+<p>
+<img width="560" alt="wireshark rdp traffic" src="https://github.com/qjackson14/nsgs/assets/156969011/b5bd8d11-02c9-4291-8737-4d4b11763863">
+</p>
+<p>
+Filter "tcp port == 3389" to observe RDP traffic in Wireshark
 </p>
 <br />
 
