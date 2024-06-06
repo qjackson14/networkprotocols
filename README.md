@@ -43,7 +43,7 @@ Create Virtual Machines
 <br />
 
 <p>
-<img width="303" alt="rdp login" src="https://github.com/qjackson14/nsgs/assets/156969011/3ff035f9-303e-4eb2-97ff-99445dafe69d">
+<img src="https://github.com/qjackson14/nsgs/assets/156969011/3ff035f9-303e-4eb2-97ff-99445dafe69d">
 </p>
 <p>
 Login to VM1 via RDP
