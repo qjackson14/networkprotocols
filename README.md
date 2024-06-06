@@ -32,6 +32,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Observing DNS Traffic
 - Observing RDP Traffic
 
+<h2>What Are Network Protocols & How DO They Help With Troubleshooting: </h2>
+
+Network protocols are standardized rules and conventions that govern how data is transmitted and received across a network. They ensure that devices can communicate effectively, regardless of their underlying hardware or software configurations. Key network protocols include TCP/IP, HTTP, FTP, and DNS, each serving specific functions like data transfer, web browsing, file sharing, and domain name resolution. In a help desk setting, understanding network protocols is essential for troubleshooting because it allows technicians to diagnose and resolve connectivity issues, identify communication problems, and ensure that data flows smoothly between devices. By analyzing protocol-related data, such as packet headers and error messages, help desk professionals can pinpoint the source of network problems and implement appropriate solutions, ensuring reliable and efficient network performance.
+
+
 <h2>Actions and Observations</h2>
 
 <p>
